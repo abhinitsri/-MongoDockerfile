@@ -13,3 +13,7 @@ docker run -d -p27017:27017 --name mongocontainer Image_id
 docker ps
 # entering into docker container as root user
 docker exec -it Container_id /bin/bash
+# checking for mongodb is Up or NOT
+mongo
+# check for available default dbs
+show dbs
